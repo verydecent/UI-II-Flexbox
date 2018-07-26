@@ -64,3 +64,148 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Container */
+
+.container, .container-2 {
+	width: 880px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 35px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+
+/* CTA */
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 10px;
+
+}
+
+.cta .cta-text {
+	text-align: center;
+	font-size: 65px;
+	padding: 0 90px;
+	margin-top: 65px;
+}
+
+.cta .cta-text button {
+	padding: 8px 40px;
+	font-size: 16px;
+	background: white;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.cta .cta-text button:hover{
+	background: lightgrey;
+	color: white;
+}
+
+.cta img {
+	margin-top: 20px;
+	padding: 0 50px;
+}
+
+/* Main Content */
+
+/* Top Content */
+
+ .top-content {
+	display: flex;
+	margin: 20px 0;
+}
+
+.top-content .text-content {
+	padding: 0 10px;
+}
+
+/* Middle img */
+
+.middle-img {
+	margin: 20px 0;
+}
+
+/* Bottom Content */
+.bottom-content {
+	display: flex;
+	margin: 20px 0;
+}
+
+.bottom-content .text-content {
+	width: 300px;
+	padding: 0 10px;
+}
+
+/* Contact */
+.contact {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 10px;
+}
+/* Footer */
+
+footer {
+	text-align: center;
+	margin: 20px 0;
+}
+
+
+
+/* Services CSS */
+
+.container-2 h1, .container-2 h2, .container-2 h3, .container-2 h4, .container-2 h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container-2 .top-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-2 .middle-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.container-2 .middle-content .text-content {
+	width: 400px;
+	border: 1px solid black;
+	background: lightgrey;
+	padding: 12px;
+	margin: 20px auto;
+}
+
+.container-2 .middle-content .text-content button{
+
+	border: 1px solid black;
+	background: white;
+	margin-top: 10px
+}
+
+.container-2 .bottom-content {
+	display: flex;
+
+}
+
+footer {
+	margin-top: 50px;
+}
